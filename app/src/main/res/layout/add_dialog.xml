@@ -1,0 +1,31 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/editTextVsota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vsota"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextVrsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vrsta"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextNamen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Namen"
+        android:inputType="number"/>
+
+</LinearLayout>
