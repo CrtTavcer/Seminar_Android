@@ -1,0 +1,1 @@
+V repozitoriju se nahaja koda android aplikacije. Uporabnik se prijavi preko obrazca in pridobi JWT. Na main strani nato lahko vidi svojih zadnjih 10 vnosev ali doda novega. V meniju nato lahko še posodobi svoje uporabniške podatke, pregleda vse vnose ali se izpiše iz računa.
