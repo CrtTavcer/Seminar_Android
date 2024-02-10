@@ -35,6 +35,11 @@
             android:exported="true"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity
+            android:name=".UserUpdateActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>

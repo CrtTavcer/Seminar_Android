@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText vzdevekEditText;
     private EditText gesloEditText;
     private Button loginButton;
-    private TextView registracijaTextView;
+    //private TextView registracijaTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         vzdevekEditText = findViewById(R.id.vzdevek);
         gesloEditText = findViewById(R.id.geslo);
         loginButton = findViewById(R.id.loginbtn);
-        registracijaTextView = findViewById(R.id.registracija);
+        //registracijaTextView = findViewById(R.id.registracija);
     }
 
     private void setClickListeners() {
@@ -56,14 +56,14 @@ public class LoginActivity extends AppCompatActivity {
                 handleLogin();
             }
         });
-
+    /*
         registracijaTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start the registration activity or navigate to the registration screen
                 // Example: startActivity(new Intent(LoginActivity.this, RegistrationActivity.class));
             }
-        });
+        });*/
     }
 
     private void handleLogin() {

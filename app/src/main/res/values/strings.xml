@@ -6,7 +6,7 @@
     <string name="Vnos_dodan">Vnos dodan.</string>
     <string name="rest_nepricakovan_odgovor">Nepričakovan odgovor strežnika.</string>
     <string name="napaka_storitev">Napaka pri komunikaciji s strežnikom.</string>
-    <string name="URL_base_storitve">ip</string>
+    <string name="URL_base_storitve">localhost</string>
     <string name="URL_rel_lestvica">lestvice/</string>
     <string name="URL_rel_vpis_igre">igre/</string>
     <string name="vsi_vnosi">Vsi vnosi</string>
